@@ -1,0 +1,29 @@
+# Rani AI Services
+
+Rani AI Services (Calgary, Alberta, Canada) sells fixed-scope, fixed-price
+website and retail-service packages. Contact: shoaib.hayyat@gmail.com.
+Tagline: "Websites with soul."
+
+## Packages (prices in CAD)
+
+- Launch Website — $2,700 CAD (or 50% deposit of $1,350 to start). Bespoke
+  5-page business website, delivered in 7 days. Mobile responsive, contact
+  form, SEO + AI-search (AEO) setup, analytics, 2 revision rounds, training
+  video.
+- Shopify Store Build — $4,100 CAD (or 50% deposit of $2,050 to start).
+  Complete custom Shopify store: bespoke design, up to 10 products with SEO,
+  collections/navigation, payments/shipping/taxes/policies configured,
+  SEO + AEO structured data, launch checklist + training video.
+- POS Setup Package — $1,070 CAD (or 50% deposit of $535 to start). Square
+  point-of-sale setup for cafes, restaurants and retail: menu/catalog build,
+  inventory, hardware recommendation, payment configuration, staff training.
+
+Payment plans: 50% deposit now, balance on delivery. Full ownership transfers
+on final payment. Extra revision rounds $150 each. Delivery: website 7 days,
+store 14 days, POS within 10 days.
+
+## Proof of work
+
+Live demo sites: Fable Coffee (coffee roastery), Hearth & Thistle (bakery),
+Ember & Ash (restaurant), Aurelis (real estate), Qamar Dunes (resort),
+Aurea (medspa), Gulf Law Firm — all at shoaibhayat90.github.io/<slug>.

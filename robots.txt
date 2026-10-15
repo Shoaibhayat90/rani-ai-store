@@ -1,0 +1,3 @@
+User-Agent: *
+Allow: /
+Sitemap: https://shoaibhayat90.github.io/rani-ai-store/sitemap.xml

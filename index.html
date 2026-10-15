@@ -55,6 +55,20 @@
       "description": "Square point-of-sale setup for cafes, restaurants and retail: menu build, inventory, hardware guidance and staff training.",
       "brand": { "@type": "Brand", "name": "Rani AI Services" },
       "offers": { "@type": "Offer", "priceCurrency": "CAD", "price": "1070", "availability": "https://schema.org/InStock", "url": "https://shoaibhayat90.github.io/rani-ai-store/#packages" }
+    },
+    {
+      "@type": "Product",
+      "name": "AI Chatbot Setup",
+      "description": "Custom AI chatbot trained on your business content: answers customers 24/7, captures leads and books appointments. Embedded on your website with 30 days of tuning.",
+      "brand": { "@type": "Brand", "name": "Rani AI Services" },
+      "offers": { "@type": "Offer", "priceCurrency": "CAD", "price": "2100", "availability": "https://schema.org/InStock", "url": "https://shoaibhayat90.github.io/rani-ai-store/#packages" }
+    },
+    {
+      "@type": "Product",
+      "name": "SEO Foundation",
+      "description": "One-time SEO and AI-visibility setup: keyword research, on-page SEO, Google Business Profile optimization, and schema/AEO markup so AI assistants cite your business.",
+      "brand": { "@type": "Brand", "name": "Rani AI Services" },
+      "offers": { "@type": "Offer", "priceCurrency": "CAD", "price": "1250", "availability": "https://schema.org/InStock", "url": "https://shoaibhayat90.github.io/rani-ai-store/#packages" }
     }
   ]
 }
@@ -286,6 +300,44 @@ footer{border-top:1px solid var(--line);padding:56px 0 40px;margin-top:40px}
         </fieldset>
         <button class="btn btn-gold" onclick="addToCart('pos')">Add to cart</button>
       </div>
+      <div class="pkg">
+        <h3>AI Chatbot Setup</h3>
+        <p class="lede">A custom AI chatbot trained on your business, live on your site.</p>
+        <div class="price">$2,100 <small>CAD</small></div>
+        <p class="dep-note">or <strong>50% deposit of $1,050</strong> to start — balance on delivery</p>
+        <ul>
+          <li>Trained on your content, FAQs &amp; services</li>
+          <li>Answers customers 24/7</li>
+          <li>Lead capture &amp; appointment booking</li>
+          <li>Your branding, embedded on your site</li>
+          <li>30 days of tuning after launch</li>
+        </ul>
+        <fieldset class="pay-opts" style="border:none">
+          <div class="lbl">Payment</div>
+          <label class="pay-opt"><input type="radio" name="pay-chatbot" value="full" checked> Pay in full <span class="p">$2,100</span></label>
+          <label class="pay-opt"><input type="radio" name="pay-chatbot" value="deposit"> 50% deposit <span class="p">$1,050</span></label>
+        </fieldset>
+        <button class="btn btn-gold" onclick="addToCart('chatbot')">Add to cart</button>
+      </div>
+      <div class="pkg">
+        <h3>SEO Foundation</h3>
+        <p class="lede">One-time SEO + AI-visibility setup. Get found everywhere.</p>
+        <div class="price">$1,250 <small>CAD</small></div>
+        <p class="dep-note">or <strong>50% deposit of $625</strong> to start — balance on delivery</p>
+        <ul>
+          <li>Keyword research for your services &amp; city</li>
+          <li>On-page SEO across your website</li>
+          <li>Google Business Profile optimization</li>
+          <li>Schema + AEO markup for AI assistants</li>
+          <li>Plain-English report of everything done</li>
+        </ul>
+        <fieldset class="pay-opts" style="border:none">
+          <div class="lbl">Payment</div>
+          <label class="pay-opt"><input type="radio" name="pay-seo" value="full" checked> Pay in full <span class="p">$1,250</span></label>
+          <label class="pay-opt"><input type="radio" name="pay-seo" value="deposit"> 50% deposit <span class="p">$625</span></label>
+        </fieldset>
+        <button class="btn btn-gold" onclick="addToCart('seo')">Add to cart</button>
+      </div>
     </div>
   </div>
 </section>
@@ -310,7 +362,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 40px;margin-top:40px}
       <div class="step">
         <div class="num">3</div>
         <h3>Delivered</h3>
-        <p>Your website, store, or POS setup arrives on schedule with a training video. Launch Website in 7 days, Shopify Store in 14, POS scheduled within 10.</p>
+        <p>Your website, store, POS setup, chatbot, or SEO foundation arrives on schedule with a training video. Launch Website in 7 days, Shopify Store in 14, everything else within 10.</p>
       </div>
     </div>
   </div>
@@ -364,7 +416,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 40px;margin-top:40px}
       </details>
       <details>
         <summary>How fast is delivery?</summary>
-        <p>Launch Website: 7 days from kickoff. Shopify Store Build: 14 days. POS Setup: scheduled within 10 days. The clock starts once we've had the kickoff call and received your content.</p>
+        <p>Launch Website: 7 days from kickoff. Shopify Store Build: 14 days. POS Setup, AI Chatbot, and SEO Foundation: within 10 days. The clock starts once we've had the kickoff call and received your content.</p>
       </details>
       <details>
         <summary>Do I own everything?</summary>
@@ -418,7 +470,9 @@ var STORE = "https://a04y0g-pb.myshopify.com";
 var PRODUCTS = {
   launch:  { name: "Launch Website",     full: { vid: "54626305311038", price: 2700 }, deposit: { vid: "54626306851134", price: 1350 } },
   shopify: { name: "Shopify Store Build", full: { vid: "54626305507646", price: 4100 }, deposit: { vid: "54626307047742", price: 2050 } },
-  pos:     { name: "POS Setup Package",   full: { vid: "54626305835326", price: 1070 }, deposit: { vid: "54626307670334", price: 535  } }
+  pos:     { name: "POS Setup Package",   full: { vid: "54626305835326", price: 1070 }, deposit: { vid: "54626307670334", price: 535  } },
+  chatbot: { name: "AI Chatbot Setup",    full: { vid: "54626629714238", price: 2100 }, deposit: { vid: "54626631221566", price: 1050 } },
+  seo:     { name: "SEO Foundation",      full: { vid: "54626630009150", price: 1250 }, deposit: { vid: "54626631319870", price: 625  } }
 };
 var cart = []; // in-memory: [{vid, name, opt, price, qty}]
 
